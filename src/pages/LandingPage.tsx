@@ -5,9 +5,9 @@ import './LandingPage.css';
 const LandingPage: React.FC = () => {
   return (
     <div className="container">
-      <h1>Welcome to the Landing Page!</h1>
+      <h1>Welcome to the Thai Restaurant!</h1>
       <NavLink to="/mainMenu">
-        Go to Main Menu
+        Go to order
       </NavLink>
     </div>
   );
