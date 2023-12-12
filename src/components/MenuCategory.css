@@ -1,0 +1,32 @@
+/* MenuCategory.css */
+
+.menu-category {
+    margin-bottom: 20px; 
+  }
+  
+  .category-title {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  
+  .horizontal-scroller {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .horizontal-scroller::-webkit-scrollbar {
+    display: none;
+  }
+  .menu-item {
+    margin-right: 20px; /* Adjust margin as needed to add spacing between MenuItems */
+  }

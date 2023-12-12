@@ -1,0 +1,23 @@
+/* AllergenLegend.css */
+
+.allergen-legend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, 1fr); /* Two rows */
+    gap: 10px; /* Adjust the gap between items */
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .legend-icon {
+    font-size: 2em;
+    margin-right: 8px;
+  }
+  
+  .legend-label {
+    font-size: 1.5em;
+  }
+  

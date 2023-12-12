@@ -1,0 +1,108 @@
+html, body, #root, #page {
+    width: 100%;
+    margin: 0;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    background-color: #C0D6C0;
+    color: black;
+  }
+  
+  #root {
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+  
+  #title {
+    font-size: 4em;
+  }
+  
+  #onTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30%;
+  }
+  
+
+.containerPage {
+    display: flex;
+  }
+  
+  .food-container {
+    flex: 1;
+    margin-right: 20px;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .customize-options {
+    flex: 1;
+  }
+  
+  
+  #img-container {
+    max-width: 100%;
+    border: 2px solid #000;
+    border-radius: 8px; 
+    height: 85%;
+  }
+  
+  
+  .caption {
+    padding: 10px;
+  }
+  
+  .customize-options {
+    margin-top: 20px;
+  }
+  
+  .customize-row {
+    margin-bottom: 10px;
+  }
+  
+  .customize-row label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .special-requests {
+    margin-top: 20px;
+  }
+  
+  #special-requests {
+    width: 80%;
+  }
+  
+  .price-details {
+    margin-top: 20px;
+  }
+  
+  .cancel-button,
+  .confirm-button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    margin-right: 10px;
+  }
+  .options button {
+    background-color: #92BD8F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .options button.selected {
+    background-color: #037D50; /* Different color for selected option */
+  }
+  

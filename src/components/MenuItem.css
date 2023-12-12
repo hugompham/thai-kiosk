@@ -1,0 +1,40 @@
+/* MenuItem.css */
+
+.menu-item {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: left;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .menu-item-image, .imageLink{
+    width: 200px; /* Adjust width*/
+    height: 200px; /* Adjust height*/
+    margin-bottom: 10px; /* Add margin to separate image from details */
+    border: 2px solid #fff; /* Add white border */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+  }
+  
+  .menu-item-details {
+    text-align: left;
+  }
+  
+  .menu-item-name {
+    margin: 0;
+    font-size: 1.75em;
+  }
+  
+  .menu-item-price {
+    margin: 0;
+    font-size: 1.25em;
+  }
+  
+  .allergen-icons {
+    display: flex;
+  }
+  
+  .allergen-icon {
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
